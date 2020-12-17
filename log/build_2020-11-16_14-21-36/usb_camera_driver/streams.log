@@ -1,0 +1,101 @@
+[0.027s] Invoking command in '/home/iic/conversion/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/iic/conversion/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/usb_camera_driver
+[0.137s] -- The C compiler identification is GNU 7.5.0
+[0.247s] -- The CXX compiler identification is GNU 7.5.0
+[0.255s] -- Check for working C compiler: /usr/bin/cc
+[0.359s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.367s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.473s] -- Detecting C compile features
+[0.757s] -- Detecting C compile features - done
+[0.761s] -- Check for working CXX compiler: /usr/bin/c++
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.879s] -- Detecting CXX compiler ABI info
+[0.997s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Detecting CXX compile features
+[1.452s] -- Detecting CXX compile features - done
+[1.465s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.510s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.510s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.778s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.830s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.915s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.919s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.921s] -- Looking for pthread.h
+[2.028s] -- Looking for pthread.h - found
+[2.029s] -- Looking for pthread_create
+[2.134s] -- Looking for pthread_create - not found
+[2.134s] -- Looking for pthread_create in pthreads
+[2.227s] -- Looking for pthread_create in pthreads - not found
+[2.228s] -- Looking for pthread_create in pthread
+[2.325s] -- Looking for pthread_create in pthread - found
+[2.327s] -- Found Threads: TRUE  
+[2.387s] -- Found rclcpp_components: 0.7.14 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[2.398s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[2.434s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.446s] -- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[2.484s] -- Found camera_info_manager: 2.1.1 (/opt/ros/dashing/share/camera_info_manager/cmake)
+[2.491s] -- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)
+[2.540s] -- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)
+[2.569s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[2.587s] -- Found camera_calibration_parsers: 2.1.1 (/opt/ros/dashing/share/camera_calibration_parsers/cmake)
+[2.624s] -- Setting yaml-cpp_DIR to: '/opt/ros/dashing/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.655s] -- Found OpenCV: /usr (found suitable version "3.2.0", minimum required is "3") 
+[2.841s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.937s] -- Found ament_cmake_gtest: 0.7.5 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)
+[2.946s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.950s] -- Check if compiler accepts -pthread
+[3.054s] -- Check if compiler accepts -pthread - yes
+[3.066s] -- Configuring done
+[3.183s] -- Generating done
+[3.186s] -- Build files have been written to: /home/iic/conversion/build/usb_camera_driver
+[3.193s] Invoked command in '/home/iic/conversion/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake /home/iic/conversion/ros2_usb_camera -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/usb_camera_driver
+[3.197s] Invoking command in '/home/iic/conversion/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver -- -j4 -l4
+[3.270s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.284s] [35m[1mScanning dependencies of target gtest[0m
+[3.291s] [35m[1mScanning dependencies of target usb_camera_driver[0m
+[3.342s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.344s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.494s] [ 30%] [32mBuilding CXX object CMakeFiles/usb_camera_driver.dir/src/usb_camera_driver.cpp.o[0m
+[4.704s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.904s] [ 40%] Built target gtest_main
+[7.363s] [ 50%] [32m[1mLinking CXX shared library libusb_camera_driver.so[0m
+[7.831s] [ 50%] Built target usb_camera_driver
+[7.855s] [35m[1mScanning dependencies of target usb_camera_driver_node[0m
+[7.923s] [ 60%] [32mBuilding CXX object CMakeFiles/usb_camera_driver_node.dir/src/usb_camera_driver_node.cpp.o[0m
+[8.032s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.113s] [ 70%] Built target gtest
+[8.129s] [35m[1mScanning dependencies of target usb_camera_driver_tests[0m
+[8.198s] [ 80%] [32mBuilding CXX object test/CMakeFiles/usb_camera_driver_tests.dir/usb_camera_driver_tests.cpp.o[0m
+[10.428s] [ 90%] [32m[1mLinking CXX executable usb_camera_driver_node[0m
+[11.357s] [100%] [32m[1mLinking CXX executable usb_camera_driver_tests[0m
+[11.400s] [100%] Built target usb_camera_driver_node
+[12.179s] [100%] Built target usb_camera_driver_tests
+[12.195s] Invoked command in '/home/iic/conversion/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver -- -j4 -l4
+[12.256s] Invoking command in '/home/iic/conversion/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver --target install -- -j4 -l4
+[12.398s] [ 20%] Built target gtest
+[12.407s] [ 40%] Built target usb_camera_driver
+[12.412s] [ 60%] Built target gtest_main
+[12.487s] [ 80%] Built target usb_camera_driver_node
+[12.491s] [100%] Built target usb_camera_driver_tests
+[12.519s] [36mInstall the project...[0m
+[12.532s] -- Install configuration: ""
+[12.533s] -- Installing: /home/iic/conversion/install/usb_camera_driver/lib/libusb_camera_driver.so
+[12.534s] -- Set runtime path of "/home/iic/conversion/install/usb_camera_driver/lib/libusb_camera_driver.so" to ""
+[12.534s] -- Installing: /home/iic/conversion/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node
+[12.535s] -- Set runtime path of "/home/iic/conversion/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node" to ""
+[12.535s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch
+[12.535s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py
+[12.535s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py
+[12.535s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh
+[12.536s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh
+[12.537s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver
+[12.537s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver
+[12.537s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake
+[12.537s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake
+[12.537s] -- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/package.xml
+[12.542s] Invoked command in '/home/iic/conversion/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver --target install -- -j4 -l4

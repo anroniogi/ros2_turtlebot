@@ -1,0 +1,21 @@
+[0.094s] Invoking command in '/home/iic/conversion/build/depth_image_proc': /usr/bin/cmake /home/iic/conversion/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/depth_image_proc
+[0.128s] -- Configuring incomplete, errors occurred!
+[0.128s] See also "/home/iic/conversion/build/depth_image_proc/CMakeFiles/CMakeOutput.log".
+[0.129s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.129s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.129s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.129s]   CMake did not find one.
+[0.129s] 
+[0.129s]   Could not find a package configuration file provided by "catkin" with any
+[0.129s]   of the following names:
+[0.129s] 
+[0.129s]     catkinConfig.cmake
+[0.130s]     catkin-config.cmake
+[0.130s] 
+[0.130s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.130s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.130s]   provides a separate development package or SDK, be sure it has been
+[0.130s]   installed.
+[0.130s] 
+[0.131s] 
+[0.162s] Invoked command in '/home/iic/conversion/build/depth_image_proc' returned '1': /usr/bin/cmake /home/iic/conversion/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/depth_image_proc

@@ -1,0 +1,41 @@
+[0.411s] Invoking command in '/home/iic/conversion/py_pubsub': PYTHONPATH=/home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/iic/conversion/build/py_pubsub/build install --prefix /home/iic/conversion/install/py_pubsub --record /home/iic/conversion/build/py_pubsub/install.log --single-version-externally-managed
+[0.745s] running egg_info
+[0.746s] creating ../build/py_pubsub/py_pubsub.egg-info
+[0.747s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.747s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.748s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.748s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.749s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.749s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.792s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.793s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.794s] running build
+[0.794s] running build_py
+[0.794s] creating /home/iic/conversion/build/py_pubsub/build
+[0.795s] creating /home/iic/conversion/build/py_pubsub/build/lib
+[0.795s] creating /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub
+[0.795s] copying py_pubsub/publisher_member_function.py -> /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub
+[0.796s] copying py_pubsub/subscriber_member_function.py -> /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub
+[0.796s] copying py_pubsub/__init__.py -> /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub
+[0.797s] running install
+[0.798s] running install_lib
+[0.799s] creating /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[0.800s] copying /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[0.800s] copying /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[0.801s] copying /home/iic/conversion/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub
+[0.802s] byte-compiling /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-36.pyc
+[0.803s] byte-compiling /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-36.pyc
+[0.803s] byte-compiling /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/__init__.py to __init__.cpython-36.pyc
+[0.804s] running install_data
+[0.805s] creating /home/iic/conversion/install/py_pubsub/share/ament_index
+[0.805s] creating /home/iic/conversion/install/py_pubsub/share/ament_index/resource_index
+[0.806s] creating /home/iic/conversion/install/py_pubsub/share/ament_index/resource_index/packages
+[0.806s] copying resource/py_pubsub -> /home/iic/conversion/install/py_pubsub/share/ament_index/resource_index/packages
+[0.806s] copying package.xml -> /home/iic/conversion/install/py_pubsub/share/py_pubsub
+[0.807s] running install_egg_info
+[0.810s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub-0.0.0-py3.6.egg-info
+[0.811s] running install_scripts
+[0.841s] Installing listener script to /home/iic/conversion/install/py_pubsub/lib/py_pubsub
+[0.841s] Installing talker script to /home/iic/conversion/install/py_pubsub/lib/py_pubsub
+[0.842s] writing list of installed files to '/home/iic/conversion/build/py_pubsub/install.log'
+[0.871s] Invoked command in '/home/iic/conversion/py_pubsub' returned '0': PYTHONPATH=/home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/iic/conversion/build/py_pubsub/build install --prefix /home/iic/conversion/install/py_pubsub --record /home/iic/conversion/build/py_pubsub/install.log --single-version-externally-managed

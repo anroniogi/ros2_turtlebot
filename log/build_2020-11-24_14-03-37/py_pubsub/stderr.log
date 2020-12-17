@@ -1,0 +1,5 @@
+  File "/home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/subscriber_member_function.py", line 49
+    print type(cv_image)
+             ^
+SyntaxError: invalid syntax
+

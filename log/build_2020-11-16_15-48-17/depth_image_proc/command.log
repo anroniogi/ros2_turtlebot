@@ -1,0 +1,1 @@
+Invoking command in '/home/iic/conversion/build/depth_image_proc': /usr/bin/cmake /home/iic/conversion/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/depth_image_proc

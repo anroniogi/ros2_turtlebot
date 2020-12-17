@@ -1,0 +1,5 @@
+  File "/home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/publisher_member_function.py", line 18
+    except CvBridgeError, e:
+                        ^
+SyntaxError: invalid syntax
+

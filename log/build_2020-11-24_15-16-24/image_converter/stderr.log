@@ -1,0 +1,5 @@
+  File "/home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter/convert.py", line 45
+    if self.to_convert == "mono8" or :
+                                     ^
+SyntaxError: invalid syntax
+

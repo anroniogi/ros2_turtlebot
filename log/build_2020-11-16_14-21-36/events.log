@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (usb_camera_driver) JobQueued: {'identifier': 'usb_camera_driver', 'dependencies': OrderedDict()}
+[0.001430] (usb_camera_driver) JobStarted: {'identifier': 'usb_camera_driver'}
+[0.027210] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'cmake'}
+[0.027604] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/iic/conversion/ros2_usb_camera', '-DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/usb_camera_driver'], 'cwd': '/home/iic/conversion/build/usb_camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iic'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/iic/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/iic'), ('OLDPWD', '/home/iic/conversion/ros2_usb_camera'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/iic/turtlebot3_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'iic'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '102dfca112b79273f160489543515876700000017540007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'iic'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/iic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/iic-ros2:@/tmp/.ICE-unix/1754,unix/iic-ros2:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80e06b11_dd99_4e9d_aa52_e42cc59e8936'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/iic/conversion/build/usb_camera_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/iic/turtlebot3_ws/build/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/build/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing')]), 'shell': False}
+[0.100008] (-) TimerEvent: {}
+[0.138961] (usb_camera_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.200093] (-) TimerEvent: {}
+[0.249134] (usb_camera_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.256926] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300206] (-) TimerEvent: {}
+[0.360374] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.369083] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400312] (-) TimerEvent: {}
+[0.466387] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.474396] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.500414] (-) TimerEvent: {}
+[0.600726] (-) TimerEvent: {}
+[0.701066] (-) TimerEvent: {}
+[0.758772] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.762533] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.801168] (-) TimerEvent: {}
+[0.880320] (usb_camera_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.880548] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.901269] (-) TimerEvent: {}
+[0.998196] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.001353] (-) TimerEvent: {}
+[1.005665] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.101464] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302095] (-) TimerEvent: {}
+[1.402483] (-) TimerEvent: {}
+[1.453880] (usb_camera_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.466198] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.502576] (-) TimerEvent: {}
+[1.511214] (usb_camera_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.511428] (usb_camera_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.602669] (-) TimerEvent: {}
+[1.703030] (-) TimerEvent: {}
+[1.780089] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.803132] (-) TimerEvent: {}
+[1.831810] (usb_camera_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.903235] (-) TimerEvent: {}
+[1.916468] (usb_camera_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.920206] (usb_camera_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.922196] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.003340] (-) TimerEvent: {}
+[2.030114] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.030413] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[2.103444] (-) TimerEvent: {}
+[2.135435] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[2.135913] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.203545] (-) TimerEvent: {}
+[2.229006] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.229232] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.303648] (-) TimerEvent: {}
+[2.326817] (usb_camera_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.328419] (usb_camera_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.388581] (usb_camera_driver) StdoutLine: {'line': b'-- Found rclcpp_components: 0.7.14 (/opt/ros/dashing/share/rclcpp_components/cmake)\n'}
+[2.399520] (usb_camera_driver) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[2.403731] (-) TimerEvent: {}
+[2.435343] (usb_camera_driver) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[2.447683] (usb_camera_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 0.7.0 (/opt/ros/dashing/share/sensor_msgs/cmake)\n'}
+[2.485921] (usb_camera_driver) StdoutLine: {'line': b'-- Found camera_info_manager: 2.1.1 (/opt/ros/dashing/share/camera_info_manager/cmake)\n'}
+[2.492493] (usb_camera_driver) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[2.503837] (-) TimerEvent: {}
+[2.541749] (usb_camera_driver) StdoutLine: {'line': b'-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)\n'}
+[2.570429] (usb_camera_driver) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[2.588359] (usb_camera_driver) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 2.1.1 (/opt/ros/dashing/share/camera_calibration_parsers/cmake)\n'}
+[2.603935] (-) TimerEvent: {}
+[2.625687] (usb_camera_driver) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/dashing/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.656801] (usb_camera_driver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "3.2.0", minimum required is "3") \n'}
+[2.704034] (-) TimerEvent: {}
+[2.804400] (-) TimerEvent: {}
+[2.842415] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[2.904494] (-) TimerEvent: {}
+[2.938978] (usb_camera_driver) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.7.5 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)\n'}
+[2.947621] (usb_camera_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.951186] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[3.004608] (-) TimerEvent: {}
+[3.056107] (usb_camera_driver) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[3.067641] (usb_camera_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.104705] (-) TimerEvent: {}
+[3.184637] (usb_camera_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.187699] (usb_camera_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/iic/conversion/build/usb_camera_driver\n'}
+[3.194108] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[3.197790] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'build'}
+[3.198037] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iic/conversion/build/usb_camera_driver', '--', '-j4', '-l4'], 'cwd': '/home/iic/conversion/build/usb_camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iic'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/iic/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/iic'), ('OLDPWD', '/home/iic/conversion/ros2_usb_camera'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/iic/turtlebot3_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'iic'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '102dfca112b79273f160489543515876700000017540007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'iic'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/iic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/iic-ros2:@/tmp/.ICE-unix/1754,unix/iic-ros2:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80e06b11_dd99_4e9d_aa52_e42cc59e8936'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/iic/conversion/build/usb_camera_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/iic/turtlebot3_ws/build/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/build/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing')]), 'shell': False}
+[3.204813] (-) TimerEvent: {}
+[3.271139] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[3.285297] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[3.292795] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver\x1b[0m\n'}
+[3.304919] (-) TimerEvent: {}
+[3.343858] (usb_camera_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[3.345415] (usb_camera_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[3.405041] (-) TimerEvent: {}
+[3.495370] (usb_camera_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver.dir/src/usb_camera_driver.cpp.o\x1b[0m\n'}
+[3.505138] (-) TimerEvent: {}
+[3.605533] (-) TimerEvent: {}
+[3.705943] (-) TimerEvent: {}
+[3.806396] (-) TimerEvent: {}
+[3.906851] (-) TimerEvent: {}
+[4.007288] (-) TimerEvent: {}
+[4.107697] (-) TimerEvent: {}
+[4.208037] (-) TimerEvent: {}
+[4.308383] (-) TimerEvent: {}
+[4.408749] (-) TimerEvent: {}
+[4.509132] (-) TimerEvent: {}
+[4.609478] (-) TimerEvent: {}
+[4.705232] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[4.709583] (-) TimerEvent: {}
+[4.810017] (-) TimerEvent: {}
+[4.905428] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[4.910123] (-) TimerEvent: {}
+[5.010555] (-) TimerEvent: {}
+[5.110903] (-) TimerEvent: {}
+[5.211255] (-) TimerEvent: {}
+[5.311679] (-) TimerEvent: {}
+[5.412022] (-) TimerEvent: {}
+[5.512360] (-) TimerEvent: {}
+[5.612713] (-) TimerEvent: {}
+[5.713067] (-) TimerEvent: {}
+[5.813414] (-) TimerEvent: {}
+[5.913788] (-) TimerEvent: {}
+[6.014133] (-) TimerEvent: {}
+[6.114480] (-) TimerEvent: {}
+[6.214910] (-) TimerEvent: {}
+[6.315339] (-) TimerEvent: {}
+[6.415697] (-) TimerEvent: {}
+[6.516110] (-) TimerEvent: {}
+[6.616514] (-) TimerEvent: {}
+[6.716942] (-) TimerEvent: {}
+[6.817363] (-) TimerEvent: {}
+[6.917769] (-) TimerEvent: {}
+[7.018179] (-) TimerEvent: {}
+[7.118583] (-) TimerEvent: {}
+[7.218996] (-) TimerEvent: {}
+[7.319403] (-) TimerEvent: {}
+[7.364591] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libusb_camera_driver.so\x1b[0m\n'}
+[7.419517] (-) TimerEvent: {}
+[7.519941] (-) TimerEvent: {}
+[7.620356] (-) TimerEvent: {}
+[7.720765] (-) TimerEvent: {}
+[7.821438] (-) TimerEvent: {}
+[7.832758] (usb_camera_driver) StdoutLine: {'line': b'[ 50%] Built target usb_camera_driver\n'}
+[7.856389] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_node\x1b[0m\n'}
+[7.921551] (-) TimerEvent: {}
+[7.924948] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/usb_camera_driver_node.dir/src/usb_camera_driver_node.cpp.o\x1b[0m\n'}
+[8.021660] (-) TimerEvent: {}
+[8.033837] (usb_camera_driver) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[8.114443] (usb_camera_driver) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[8.121762] (-) TimerEvent: {}
+[8.130748] (usb_camera_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_camera_driver_tests\x1b[0m\n'}
+[8.199252] (usb_camera_driver) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/CMakeFiles/usb_camera_driver_tests.dir/usb_camera_driver_tests.cpp.o\x1b[0m\n'}
+[8.221869] (-) TimerEvent: {}
+[8.322207] (-) TimerEvent: {}
+[8.423146] (-) TimerEvent: {}
+[8.523562] (-) TimerEvent: {}
+[8.623985] (-) TimerEvent: {}
+[8.724404] (-) TimerEvent: {}
+[8.824826] (-) TimerEvent: {}
+[8.925262] (-) TimerEvent: {}
+[9.025687] (-) TimerEvent: {}
+[9.126105] (-) TimerEvent: {}
+[9.226518] (-) TimerEvent: {}
+[9.326944] (-) TimerEvent: {}
+[9.427360] (-) TimerEvent: {}
+[9.527780] (-) TimerEvent: {}
+[9.628191] (-) TimerEvent: {}
+[9.728796] (-) TimerEvent: {}
+[9.829214] (-) TimerEvent: {}
+[9.929613] (-) TimerEvent: {}
+[10.030013] (-) TimerEvent: {}
+[10.130470] (-) TimerEvent: {}
+[10.230860] (-) TimerEvent: {}
+[10.331253] (-) TimerEvent: {}
+[10.429635] (usb_camera_driver) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_node\x1b[0m\n'}
+[10.431355] (-) TimerEvent: {}
+[10.531756] (-) TimerEvent: {}
+[10.632161] (-) TimerEvent: {}
+[10.732573] (-) TimerEvent: {}
+[10.832957] (-) TimerEvent: {}
+[10.933634] (-) TimerEvent: {}
+[11.034021] (-) TimerEvent: {}
+[11.134653] (-) TimerEvent: {}
+[11.235061] (-) TimerEvent: {}
+[11.335468] (-) TimerEvent: {}
+[11.358719] (usb_camera_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable usb_camera_driver_tests\x1b[0m\n'}
+[11.402015] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_node\n'}
+[11.435573] (-) TimerEvent: {}
+[11.535880] (-) TimerEvent: {}
+[11.636190] (-) TimerEvent: {}
+[11.736496] (-) TimerEvent: {}
+[11.836798] (-) TimerEvent: {}
+[11.937137] (-) TimerEvent: {}
+[12.037544] (-) TimerEvent: {}
+[12.137962] (-) TimerEvent: {}
+[12.180402] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_tests\n'}
+[12.196214] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[12.238129] (-) TimerEvent: {}
+[12.240423] (usb_camera_driver) JobProgress: {'identifier': 'usb_camera_driver', 'progress': 'install'}
+[12.255212] (usb_camera_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iic/conversion/build/usb_camera_driver', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/iic/conversion/build/usb_camera_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iic'), ('LANGUAGE', 'en_US:en'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1831'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/iic/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/iic'), ('OLDPWD', '/home/iic/conversion/ros2_usb_camera'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/iic/turtlebot3_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'iic'), ('GTK_IM_MODULE', 'ibus'), ('DESKTOP_AUTOSTART_ID', '102dfca112b79273f160489543515876700000017540007'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'iic'), ('XDG_SESSION_ID', '4'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/dashing/bin:/home/iic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/iic-ros2:@/tmp/.ICE-unix/1754,unix/iic-ros2:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80e06b11_dd99_4e9d_aa52_e42cc59e8936'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/iic/conversion/build/usb_camera_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/iic/turtlebot3_ws/build/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/build/turtlebot3_example:/home/iic/turtlebot3_ws/install/turtlebot3_example/lib/python3.6/site-packages:/home/iic/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/iic/turtlebot3_ws/install/turtlebot3_simulations:/home/iic/turtlebot3_ws/install/turtlebot3_gazebo:/home/iic/turtlebot3_ws/install/turtlebot3:/home/iic/turtlebot3_ws/install/turtlebot3_bringup:/home/iic/turtlebot3_ws/install/turtlebot3_node:/home/iic/turtlebot3_ws/install/turtlebot3_navigation2:/home/iic/turtlebot3_ws/install/turtlebot3_fake_node:/home/iic/turtlebot3_ws/install/turtlebot3_msgs:/home/iic/turtlebot3_ws/install/turtlebot3_description:/home/iic/turtlebot3_ws/install/turtlebot3_cartographer:/home/iic/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/iic/turtlebot3_ws/install/dynamixel_sdk:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing')]), 'shell': False}
+[12.338251] (-) TimerEvent: {}
+[12.399410] (usb_camera_driver) StdoutLine: {'line': b'[ 20%] Built target gtest\n'}
+[12.408831] (usb_camera_driver) StdoutLine: {'line': b'[ 40%] Built target usb_camera_driver\n'}
+[12.413310] (usb_camera_driver) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[12.438347] (-) TimerEvent: {}
+[12.488771] (usb_camera_driver) StdoutLine: {'line': b'[ 80%] Built target usb_camera_driver_node\n'}
+[12.492270] (usb_camera_driver) StdoutLine: {'line': b'[100%] Built target usb_camera_driver_tests\n'}
+[12.521075] (usb_camera_driver) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[12.534033] (usb_camera_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.534321] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/lib/libusb_camera_driver.so\n'}
+[12.535499] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/iic/conversion/install/usb_camera_driver/lib/libusb_camera_driver.so" to ""\n'}
+[12.535742] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node\n'}
+[12.536364] (usb_camera_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/iic/conversion/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node" to ""\n'}
+[12.536592] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch\n'}
+[12.536744] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py\n'}
+[12.536932] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py\n'}
+[12.537059] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver\n'}
+[12.537241] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver\n'}
+[12.537394] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh\n'}
+[12.537574] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh\n'}
+[12.537743] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash\n'}
+[12.537920] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh\n'}
+[12.538078] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh\n'}
+[12.538234] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver\n'}
+[12.538352] (-) TimerEvent: {}
+[12.538513] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver\n'}
+[12.538718] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake\n'}
+[12.538854] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake\n'}
+[12.539010] (usb_camera_driver) StdoutLine: {'line': b'-- Installing: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/package.xml\n'}
+[12.543655] (usb_camera_driver) CommandEnded: {'returncode': 0}
+[12.631669] (usb_camera_driver) JobEnded: {'identifier': 'usb_camera_driver', 'rc': 0}
+[12.633605] (-) EventReactorShutdown: {}

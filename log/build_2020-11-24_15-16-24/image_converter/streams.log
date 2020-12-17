@@ -1,0 +1,42 @@
+[0.543s] Invoking command in '/home/iic/conversion/image_converter': PYTHONPATH=/home/iic/conversion/install/image_converter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_converter build --build-base /home/iic/conversion/build/image_converter/build install --prefix /home/iic/conversion/install/image_converter --record /home/iic/conversion/build/image_converter/install.log --single-version-externally-managed
+[0.926s] running egg_info
+[0.927s] creating ../build/image_converter/image_converter.egg-info
+[0.927s] writing ../build/image_converter/image_converter.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../build/image_converter/image_converter.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../build/image_converter/image_converter.egg-info/entry_points.txt
+[0.928s] writing requirements to ../build/image_converter/image_converter.egg-info/requires.txt
+[0.929s] writing top-level names to ../build/image_converter/image_converter.egg-info/top_level.txt
+[0.929s] writing manifest file '../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[0.986s] reading manifest file '../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.989s] creating /home/iic/conversion/build/image_converter/build
+[0.989s] creating /home/iic/conversion/build/image_converter/build/lib
+[0.990s] creating /home/iic/conversion/build/image_converter/build/lib/image_converter
+[0.990s] copying image_converter/convert.py -> /home/iic/conversion/build/image_converter/build/lib/image_converter
+[0.991s] copying image_converter/__init__.py -> /home/iic/conversion/build/image_converter/build/lib/image_converter
+[0.992s] running install
+[0.993s] running install_lib
+[0.994s] creating /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter
+[0.995s] copying /home/iic/conversion/build/image_converter/build/lib/image_converter/convert.py -> /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter
+[0.995s] copying /home/iic/conversion/build/image_converter/build/lib/image_converter/__init__.py -> /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter
+[0.996s] byte-compiling /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter/convert.py to convert.cpython-36.pyc
+[0.997s]   File "/home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter/convert.py", line 45
+[0.997s]     if self.to_convert == "mono8" or :
+[0.997s]                                      ^
+[0.998s] SyntaxError: invalid syntax
+[0.998s] 
+[0.998s] byte-compiling /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter/__init__.py to __init__.cpython-36.pyc
+[0.999s] running install_data
+[1.000s] creating /home/iic/conversion/install/image_converter/share/ament_index
+[1.000s] creating /home/iic/conversion/install/image_converter/share/ament_index/resource_index
+[1.001s] creating /home/iic/conversion/install/image_converter/share/ament_index/resource_index/packages
+[1.002s] copying resource/image_converter -> /home/iic/conversion/install/image_converter/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/iic/conversion/install/image_converter/share/image_converter
+[1.003s] running install_egg_info
+[1.006s] Copying ../build/image_converter/image_converter.egg-info to /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter-0.0.0-py3.6.egg-info
+[1.008s] running install_scripts
+[1.033s] Installing converter script to /home/iic/conversion/install/image_converter/lib/image_converter
+[1.034s] writing list of installed files to '/home/iic/conversion/build/image_converter/install.log'
+[1.084s] Invoked command in '/home/iic/conversion/image_converter' returned '0': PYTHONPATH=/home/iic/conversion/install/image_converter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_converter build --build-base /home/iic/conversion/build/image_converter/build install --prefix /home/iic/conversion/install/image_converter --record /home/iic/conversion/build/image_converter/install.log --single-version-externally-managed

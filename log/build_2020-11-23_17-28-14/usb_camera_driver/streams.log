@@ -1,0 +1,33 @@
+[0.310s] Invoking command in '/home/iic/conversion/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/conversion/install/py_pubsub:/home/iic/conversion/install/conversion:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver -- -j4 -l4
+[0.433s] [ 20%] Built target gtest
+[0.464s] [ 40%] Built target usb_camera_driver
+[0.481s] [ 60%] Built target gtest_main
+[0.561s] [ 80%] Built target usb_camera_driver_node
+[0.576s] [100%] Built target usb_camera_driver_tests
+[0.597s] Invoked command in '/home/iic/conversion/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/conversion/install/py_pubsub:/home/iic/conversion/install/conversion:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver -- -j4 -l4
+[0.714s] Invoking command in '/home/iic/conversion/build/usb_camera_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/conversion/install/py_pubsub:/home/iic/conversion/install/conversion:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver --target install -- -j4 -l4
+[0.859s] [ 20%] Built target gtest
+[0.887s] [ 40%] Built target gtest_main
+[0.929s] [ 60%] Built target usb_camera_driver
+[0.984s] [ 80%] Built target usb_camera_driver_node
+[1.018s] [100%] Built target usb_camera_driver_tests
+[1.048s] [36mInstall the project...[0m
+[1.061s] -- Install configuration: ""
+[1.063s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/lib/libusb_camera_driver.so
+[1.065s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/lib/usb_camera_driver/usb_camera_driver_node
+[1.065s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch
+[1.065s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_node.launch.py
+[1.065s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/launch/usb_camera_component.launch.py
+[1.066s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/package_run_dependencies/usb_camera_driver
+[1.066s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/parent_prefix_path/usb_camera_driver
+[1.068s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/environment/path.sh
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.bash
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.sh
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/local_setup.zsh
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/packages/usb_camera_driver
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/ament_index/resource_index/rclcpp_components/usb_camera_driver
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig.cmake
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/cmake/usb_camera_driverConfig-version.cmake
+[1.069s] -- Up-to-date: /home/iic/conversion/install/usb_camera_driver/share/usb_camera_driver/package.xml
+[1.078s] Invoked command in '/home/iic/conversion/build/usb_camera_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iic/conversion/install/py_pubsub:/home/iic/conversion/install/conversion:/home/iic/turtlebot3_ws/install/turtlebot3_teleop:/home/iic/turtlebot3_ws/install/turtlebot3_example:/opt/ros/dashing /usr/bin/cmake --build /home/iic/conversion/build/usb_camera_driver --target install -- -j4 -l4

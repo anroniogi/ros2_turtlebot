@@ -1,0 +1,2 @@
+Invoking command in '/home/iic/conversion/build/camera_calibration': /usr/bin/cmake /home/iic/conversion/image_pipeline/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/camera_calibration
+Invoked command in '/home/iic/conversion/build/camera_calibration' returned '1': /usr/bin/cmake /home/iic/conversion/image_pipeline/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/camera_calibration

@@ -1,0 +1,5 @@
+  File "/home/iic/conversion/install/py_pubsub/lib/python3.6/site-packages/py_pubsub/convertion.py", line 45
+    if self.to_convert == "mono8" or :
+                                     ^
+SyntaxError: invalid syntax
+

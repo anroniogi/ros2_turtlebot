@@ -1,0 +1,37 @@
+[0.378s] Invoking command in '/home/iic/conversion/conversion': PYTHONPATH=/home/iic/conversion/install/conversion/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/conversion build --build-base /home/iic/conversion/build/conversion/build install --prefix /home/iic/conversion/install/conversion --record /home/iic/conversion/build/conversion/install.log --single-version-externally-managed
+[0.716s] running egg_info
+[0.718s] creating ../build/conversion/conversion.egg-info
+[0.718s] writing ../build/conversion/conversion.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../build/conversion/conversion.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../build/conversion/conversion.egg-info/entry_points.txt
+[0.720s] writing requirements to ../build/conversion/conversion.egg-info/requires.txt
+[0.720s] writing top-level names to ../build/conversion/conversion.egg-info/top_level.txt
+[0.721s] writing manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+[0.778s] reading manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+[0.781s] writing manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+[0.783s] running build
+[0.783s] running build_py
+[0.784s] creating /home/iic/conversion/build/conversion/build
+[0.784s] creating /home/iic/conversion/build/conversion/build/lib
+[0.784s] creating /home/iic/conversion/build/conversion/build/lib/conversion
+[0.784s] copying conversion/convert.py -> /home/iic/conversion/build/conversion/build/lib/conversion
+[0.784s] copying conversion/__init__.py -> /home/iic/conversion/build/conversion/build/lib/conversion
+[0.784s] running install
+[0.784s] running install_lib
+[0.786s] creating /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+[0.786s] copying /home/iic/conversion/build/conversion/build/lib/conversion/convert.py -> /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+[0.786s] copying /home/iic/conversion/build/conversion/build/lib/conversion/__init__.py -> /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+[0.786s] byte-compiling /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion/convert.py to convert.cpython-36.pyc
+[0.787s] byte-compiling /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion/__init__.py to __init__.cpython-36.pyc
+[0.787s] running install_data
+[0.788s] creating /home/iic/conversion/install/conversion/share/ament_index
+[0.788s] creating /home/iic/conversion/install/conversion/share/ament_index/resource_index
+[0.788s] creating /home/iic/conversion/install/conversion/share/ament_index/resource_index/packages
+[0.788s] copying resource/conversion -> /home/iic/conversion/install/conversion/share/ament_index/resource_index/packages
+[0.788s] copying package.xml -> /home/iic/conversion/install/conversion/share/conversion
+[0.788s] running install_egg_info
+[0.791s] Copying ../build/conversion/conversion.egg-info to /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion-0.0.0-py3.6.egg-info
+[0.792s] running install_scripts
+[0.821s] Installing convert script to /home/iic/conversion/install/conversion/lib/conversion
+[0.821s] writing list of installed files to '/home/iic/conversion/build/conversion/install.log'
+[0.852s] Invoked command in '/home/iic/conversion/conversion' returned '0': PYTHONPATH=/home/iic/conversion/install/conversion/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/conversion build --build-base /home/iic/conversion/build/conversion/build install --prefix /home/iic/conversion/install/conversion --record /home/iic/conversion/build/conversion/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+[0.052s] Invoking command in '/home/iic/conversion/build/image_proc': /usr/bin/cmake /home/iic/conversion/image_pipeline/image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/image_proc
+[0.244s] -- The C compiler identification is GNU 7.5.0
+[0.480s] -- The CXX compiler identification is GNU 7.5.0
+[0.487s] -- Check for working C compiler: /usr/bin/cc
+[0.686s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.687s] -- Detecting C compiler ABI info
+[0.873s] -- Detecting C compiler ABI info - done
+[0.893s] -- Detecting C compile features
+[1.451s] -- Detecting C compile features - done
+[1.455s] -- Check for working CXX compiler: /usr/bin/c++
+[1.675s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.676s] -- Detecting CXX compiler ABI info
+[2.000s] -- Detecting CXX compiler ABI info - done
+[2.026s] -- Detecting CXX compile features
+[3.158s] -- Detecting CXX compile features - done
+[3.184s] CMake Error at CMakeLists.txt:4 (find_package):
+[3.184s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[3.184s]   asked CMake to find a package configuration file provided by "catkin", but
+[3.184s]   CMake did not find one.
+[3.184s] 
+[3.185s]   Could not find a package configuration file provided by "catkin" with any
+[3.185s]   of the following names:
+[3.185s] 
+[3.185s]     catkinConfig.cmake
+[3.185s]     catkin-config.cmake
+[3.185s] 
+[3.186s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[3.186s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[3.186s]   provides a separate development package or SDK, be sure it has been
+[3.186s]   installed.
+[3.186s] 
+[3.186s] -- Configuring incomplete, errors occurred!
+[3.186s] See also "/home/iic/conversion/build/image_proc/CMakeFiles/CMakeOutput.log".
+[3.187s] 
+[3.195s] Invoked command in '/home/iic/conversion/build/image_proc' returned '1': /usr/bin/cmake /home/iic/conversion/image_pipeline/image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iic/conversion/install/image_proc

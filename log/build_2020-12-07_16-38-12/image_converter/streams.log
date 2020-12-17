@@ -1,0 +1,21 @@
+[0.621s] Invoking command in '/home/iic/conversion/image_converter': PYTHONPATH=/home/iic/conversion/install/image_converter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_converter build --build-base /home/iic/conversion/build/image_converter/build install --prefix /home/iic/conversion/install/image_converter --record /home/iic/conversion/build/image_converter/install.log --single-version-externally-managed
+[1.027s] running egg_info
+[1.028s] writing ../build/image_converter/image_converter.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ../build/image_converter/image_converter.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../build/image_converter/image_converter.egg-info/entry_points.txt
+[1.029s] writing requirements to ../build/image_converter/image_converter.egg-info/requires.txt
+[1.029s] writing top-level names to ../build/image_converter/image_converter.egg-info/top_level.txt
+[1.084s] reading manifest file '../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[1.086s] writing manifest file '../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[1.087s] running build
+[1.087s] running build_py
+[1.087s] running install
+[1.088s] running install_lib
+[1.090s] running install_data
+[1.091s] running install_egg_info
+[1.093s] removing '/home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter-0.0.0-py3.6.egg-info' (and everything under it)
+[1.094s] Copying ../build/image_converter/image_converter.egg-info to /home/iic/conversion/install/image_converter/lib/python3.6/site-packages/image_converter-0.0.0-py3.6.egg-info
+[1.096s] running install_scripts
+[1.130s] Installing converter script to /home/iic/conversion/install/image_converter/lib/image_converter
+[1.130s] writing list of installed files to '/home/iic/conversion/build/image_converter/install.log'
+[1.175s] Invoked command in '/home/iic/conversion/image_converter' returned '0': PYTHONPATH=/home/iic/conversion/install/image_converter/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/image_converter build --build-base /home/iic/conversion/build/image_converter/build install --prefix /home/iic/conversion/install/image_converter --record /home/iic/conversion/build/image_converter/install.log --single-version-externally-managed

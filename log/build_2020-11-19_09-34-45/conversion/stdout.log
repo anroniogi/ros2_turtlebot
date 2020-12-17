@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/conversion/conversion.egg-info
+writing ../build/conversion/conversion.egg-info/PKG-INFO
+writing dependency_links to ../build/conversion/conversion.egg-info/dependency_links.txt
+writing entry points to ../build/conversion/conversion.egg-info/entry_points.txt
+writing requirements to ../build/conversion/conversion.egg-info/requires.txt
+writing top-level names to ../build/conversion/conversion.egg-info/top_level.txt
+writing manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+reading manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+writing manifest file '../build/conversion/conversion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/iic/conversion/build/conversion/build
+creating /home/iic/conversion/build/conversion/build/lib
+creating /home/iic/conversion/build/conversion/build/lib/conversion
+copying conversion/convert.py -> /home/iic/conversion/build/conversion/build/lib/conversion
+copying conversion/__init__.py -> /home/iic/conversion/build/conversion/build/lib/conversion
+running install
+running install_lib
+creating /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+copying /home/iic/conversion/build/conversion/build/lib/conversion/convert.py -> /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+copying /home/iic/conversion/build/conversion/build/lib/conversion/__init__.py -> /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion
+byte-compiling /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion/convert.py to convert.cpython-36.pyc
+byte-compiling /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/iic/conversion/install/conversion/share/ament_index
+creating /home/iic/conversion/install/conversion/share/ament_index/resource_index
+creating /home/iic/conversion/install/conversion/share/ament_index/resource_index/packages
+copying resource/conversion -> /home/iic/conversion/install/conversion/share/ament_index/resource_index/packages
+copying package.xml -> /home/iic/conversion/install/conversion/share/conversion
+running install_egg_info
+Copying ../build/conversion/conversion.egg-info to /home/iic/conversion/install/conversion/lib/python3.6/site-packages/conversion-0.0.0-py3.6.egg-info
+running install_scripts
+Installing convert script to /home/iic/conversion/install/conversion/lib/conversion
+writing list of installed files to '/home/iic/conversion/build/conversion/install.log'
